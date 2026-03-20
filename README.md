@@ -47,12 +47,6 @@ A full-stack Employee Management System built using React and Spring Boot with s
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots of login, dashboard, and employee pages here)
-
----
-
 ## 👨‍💻 Author
 
 Mahesh Suresh Titare

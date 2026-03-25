@@ -1,7 +1,19 @@
+# Node
 node_modules/
-.env
-/build
-/dist
-.vscode/
-.idea/
+
+# React build
+build/
+
+# Java / Spring Boot
 target/
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Env files
+.env

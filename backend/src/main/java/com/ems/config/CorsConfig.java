@@ -14,13 +14,13 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry
-                        .addMapping("/**") // ✅ ALL endpoints allowed
+                        .addMapping("/**") // ✅ ALL endpoints
                         .allowedOrigins(
-                                "http://localhost:3000",          // local
-                                "https://your-app.vercel.app"     // production (replace later)
+                                "http://localhost:3000",  // local testing
+                                "https://employee-management-system-r2w5.vercel.app" // ✅ PRODUCTION FRONTEND
                         )
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                        .allowedHeaders("*")
+                        .allowedMethods("*") // allow all methods
+                        .allowedHeaders("*") // allow all headers
                         .allowCredentials(true);
             }
         };

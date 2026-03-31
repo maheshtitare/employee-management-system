@@ -17,7 +17,7 @@ public class CorsConfig {
                         .addMapping("/**") // ✅ ALL endpoints
                         .allowedOrigins(
                                 "http://localhost:3000",  // local testing
-                                "https://employee-management-system-r2w5.vercel.app" // ✅ PRODUCTION FRONTEND
+                                "https://employee-management-system-15k8.vercel.app" // ✅ PRODUCTION FRONTEND
                         )
                         .allowedMethods("*") // allow all methods
                         .allowedHeaders("*") // allow all headers
